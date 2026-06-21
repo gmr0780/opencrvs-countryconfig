@@ -20,7 +20,7 @@ all:
 
 docker-manager-first:
   hosts:
-    qa: # @todo set this to be the hostname of your target server
+    ubuntu-16gb-fsn1-4: # box hostname / swarm node name
       ansible_host: '46.224.100.227'
       # ansible_port: '23' # @todo set this to be the SSH port if it's not 22
       # internal_ssh_port: '22' # @todo if you are port-forwarding and server SSH port is not the same as ansible_port, set it here

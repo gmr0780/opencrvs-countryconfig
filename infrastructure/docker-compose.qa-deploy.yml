@@ -48,6 +48,10 @@ services:
       - APPLICATION_CONFIG_URL=http://config:2021
       - CONFIRM_REGISTRATION_URL=http://workflow:5050/confirm/registration
       - CHECK_INVALID_TOKEN=true
+      - ESIGNET_REDIRECT_URL=https://esignet.placeholder.local/authorize
+      - MOSIP_API_USERINFO_URL=https://mosip.placeholder.local/userinfo
+      - OPENID_PROVIDER_CLAIMS=name
+      - OPENID_PROVIDER_CLIENT_ID=opencrvs-placeholder
       - MONGO_URL=mongodb://mongo1/user-mgnt?replicaSet=rs0
       - SENTRY_DSN=${SENTRY_DSN:-}
       - SENDER_EMAIL_ADDRESS=${SENDER_EMAIL_ADDRESS}

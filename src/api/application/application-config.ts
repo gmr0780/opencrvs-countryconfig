@@ -1,7 +1,7 @@
 import { countryLogo } from '@countryconfig/api/application/country-logo'
 
 export const applicationConfig = {
-  APPLICATION_NAME: 'Farajaland CRS',
+  APPLICATION_NAME: 'Bahamas CRVS',
   BIRTH: {
     REGISTRATION_TARGET: 30,
     LATE_REGISTRATION_TARGET: 365,
@@ -13,10 +13,10 @@ export const applicationConfig = {
     PRINT_IN_ADVANCE: true
   },
   COUNTRY_LOGO: countryLogo,
-  SYSTEM_IANA_TIMEZONE: 'Asia/Dhaka', // Default timezone for the country. Basis for date and time calculations during searches.
+  SYSTEM_IANA_TIMEZONE: 'America/Nassau', // Default timezone for the country. Basis for date and time calculations during searches.
   CURRENCY: {
     languagesAndCountry: ['en-US'],
-    isoCode: 'USD'
+    isoCode: 'BSD'
   },
   DEATH: {
     REGISTRATION_TARGET: 45,
